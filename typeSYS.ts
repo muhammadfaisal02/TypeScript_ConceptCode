@@ -1,4 +1,4 @@
-//Type Notation
+//Type Annotation
 
 // let fname;              //Decalair variable for first time.
 // console.log(fname);     // See their result in console.
@@ -39,6 +39,7 @@
 // rapper.toFixed(2);
 // console.log(rapper);
 
+//Example of Union By switch case
 
 // let singer: number|string|boolean;
 // singer = "Atif";
@@ -54,11 +55,7 @@
 //         break;
 // }
 
-// let firstName = "Muhammad";
-// firstName.length
-
-// let rocker = "Muhammad";
-// rocker.length 
+//Example of Union By if/else Method
 
 // let singer: number | string | boolean;
 
@@ -71,12 +68,14 @@
 //     console.log('Number Here');
 // }
 
-let researcher = Math.random() > 0.5
-? "Rosalind Franklin"
-: 51;
-if (typeof researcher === "string") {
-console.log (researcher.toUpperCase()); // Ok: string
-}
+//Example of Union By typeof Method
+
+// let researcher = Math.random() > 0.5
+// ? "Rosalind Franklin"
+// : 51;
+// if (typeof researcher === "string") {
+// console.log (researcher.toUpperCase()); // Ok: string
+// }
 
 // if (!(typeof researcher === "string")) {
 // console.log (researcher.toFixed()); // Ok: number
